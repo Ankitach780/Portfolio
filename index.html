@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ankita's Portfolio - Showcasing projects, skills, and contact information.">
+    <link rel="stylesheet" href="index.css">
+    <title>Ankita's Portfolio</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><b>ANKITA</b></div>
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href='#profile'>Home</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#project'>Project</a></li>
+                <li><a href='#contact'>Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ankita</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            </div>
+            <div class="menu-links">
+            <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#blog" onclick="toggleMenu()">Blog</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="profile-pic section">
+            <img src="images/image.jpg" alt="Ankita's profile pic">
+        </div>
+        <div class="profile-text">
+            <p class="profile-first-word">Hello, I'm</p>
+            <h1 class="title">Ankita</h1>
+            <p class="section-text">Data Science enthusiast with expertise in machine learning, deep learning, and computer vision. I've completed numerous projects showcasing my passion for data-driven solutions</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('certification/Ankita ABVGIET.pdf')">Download Resume
+                </button>
+                <button class="btn btn-color-2" onclick="location.href=('#contact')">Contact Info
+                </button>
+            </div>
+            <div id="social-container">
+                <img src="images/linkedin.jpeg" alt="My linkedIn Profile" class="icon" onclick="window.open('https://www.linkedin.com/in/ankitachaudhary6526/')">
+                <img src="images/github.jpeg" alt="My Github Profile" class="icon" onclick="window.open('https://github.com/Ankitach780')">
+                <img src="images/kaggle.jpeg" alt="My Kaggle profile" class="icon" onclick="window.open('https://www.kaggle.com/ankita20chaudhary')">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section-text-p1 about">Get to know more about me</p>
+        <h1 class="title">About Me</h1>
+        <p style="text-align: justify;">Currently pursuing a B.Tech in Computer Science, I've developed various data science projects, including recommendation systems and hand gesture recognition using OpenCV. I've also completed numerous courses to deepen my understanding of the field, constantly expanding my knowledge and skills in machine learning, deep learning, and computer vision.</p>
+        <div class="text-box-1">
+            <h2> Tools and Technology</h2>
+        </div>
+        <div class="first-class">
+        <div class="first-tool-box">
+            <div class="program">
+            <h3>Programming Languages</h3>
+            <div class="programming language">
+                <div>
+                    <span class="tool-img">
+                        <img src="images/python.jpeg" alt="Python Logo">
+                        <span>Python</span>
+                    </span>
+                    <span class="tool-img">
+                        <img src="images/java.jpeg" alt="java logo">
+                        <span>Java</span>
+                    </span>
+                </div>
+                <div class="pro-lang">
+                    <span class="tool-img">
+                        <img src="images/sql.jpeg" alt="sql logo">
+                        <span>Sql</span>
+                    </span>
+                    <span class="tool-img">
+                        <img src="images/js.jpeg" alt="JavaScript logo">
+                        <span>JavaScript</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="first-tool-box">
+        <div class="libraries-box">
+            <h3>Libraries</h3>
+            <div class="programming language">
+                <div>
+                    <span class="tool-img">
+                        <img src="images/sklearn.jpeg" alt="sklearn logo">
+                        <span>Scikit-learn</span>
+                    </span>
+                    
+                    <span class="tool-img">
+                        <img src="images/tesorflow.jpeg" alt="Tensorflow logo">
+                        <span>Tensorflow</span>
+                    </span>
+                    <span class="tool-img hyu">
+                        <img src="images/seaborn.jpeg" alt="Seaborn logo">
+                        <span>Seaborn</span>
+                    </span>
+                    <span class="tool-img ert">
+                        <img src="images/numpy.jpeg" alt="Numpy logo">
+                        <span>Numpy</span>
+                    </span>
+                </div>
+                <div class="pro-lang">
+                    <span class="tool-img">
+                        <img src="images/pandas.jpeg" alt="Pandas logo">
+                        <span>Pandas</span>
+                    </span>
+                    <span class="tool-img">
+                        <img src="images/pytorch.jpeg" alt="Pytorch logo">
+                        <span>PyTorch</span>
+                    </span>
+                    <span class="tool-img hyu">
+                        <img src="images/scipy.jpeg" alt="scipy logo">
+                        <span>Scipy</span>
+                    </span>
+                    <span class="tool-img ert">
+                        <img src="images/matplotlib.jpeg" alt="matplotlib logo">
+                        <span>Matplotlib</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="first-class">
+    <div class="first-tool-box">
+        <div class="web-framework">
+            <h3>Web Frameworks</h3>
+            <div class="programming language">
+                <div>
+                    <span class="tool-img">
+                        <img src="images/flask.jpeg" alt="Flask logo">
+                        <span>Flask</span>
+                    </span>
+                    <span class="tool-img">
+                        <img src="images/streamlit.jpeg" alt="Streamlit logo">
+                        <span>Streamlit</span>
+                    </span>
+                    <span class="tool-img">
+                        <img src="images/djangoo.jpeg" alt="django logo">
+                        <span>Django</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="first-tool-box">
+        <div class="cont-box text-box">
+            <h3>Containerization & CI/CD Tools</h3>
+            <div class="programming language">
+                <div>
+                    <span class="tool-img">
+                        <img src="images/docker.jpeg" alt="docker logo">
+                        <span>Docker</span>
+                    </span>
+                    <span class="tool-img">
+                        <img src="images/git.jpeg" alt="git logo">
+                        <span>Git</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="first-tool-box">
+        <div class="other-box text-box">
+            <h3>Other Tools</h3>
+            <div class="programming language">
+                <div>
+                    <span class="tool-img">
+                        <img src="images/html.jpeg" alt="html logo">
+                        <span>HTML</span>
+                    </span>
+                    <span class="tool-img">
+                        <img src="images/css.jpeg" alt="css logo">
+                        <span>CSS</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="text-box-1">
+            <h2>Academics</h2>
+        </div>
+        <div class="first-tool-box">
+        <div class="first acmd">
+            <div class="course-box">
+            <h3>Relevant courses</h3>
+            <div class="programming language">
+                <div>
+                    <ul class="course1-ul">
+                        <li>Probability and statistics</li>
+                        <li>Linear algebra</li>
+                        <li>Data structure and algorithms</li>
+                    </ul>
+                </div>
+                <div class="pro-lang-sec">
+                    <ul class="course-ul">
+                        <li>Machine Learning</li>
+                        <li>Deep Learning</li>
+                        <li>Computer Vision</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="text-box-1">
+        <h2>Certification</h2>
+    </div>
+    <div class="first-tool-box">
+    <div class="first certi">
+        <div class="cert-box">
+            <div class="programming language">
+                <div class="certification-ul">
+                    <ul>
+                        <li><a href="certification/ai certificate.pdf" target="_blank">AI</a></li>
+                        <li><a href="certification/data science certificate.pdf" target="_blank">Data Science</a></li>
+                        <li><a href="certification/python certification.pdf" target="_blank">Python</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+    <section id="project">
+        <p class="section-text">Check out</p>
+        <h1 class="title">Projects</h1>
+        <div class="led-box">
+            <div class="led-title">
+                <h3 class="led-control">LED Control Using Hand Gesture</h3>
+            </div>
+            <div class="programming language">
+                <div>
+                    <div class="cont-head-project">
+                        <ul>
+                            <li>The project enables LED control using hand gestures detected by a webcam. It utilizes MediaPipe for hand landmark detection and OpenCV for real-time video processing. Specific gestures, like a closed fist (no) and an open palm (yes), are mapped to control the LED's state through an Arduino microcontroller.</li>
+                            <li>MediaPipe efficiently detects hand landmarks, and the gestures are mapped to corresponding LED states. OpenCV processes each video frame to recognize these gestures and determine whether to turn the LED on or off.</li>
+                            <li><b>Tools and Frameworks Used</b> Python, OpenCV,MediaPipe, PyFirmata, Arduino,GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/Ankitach780/LED-Control-using-Hand-gesture" class="styled-link" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="led-box">
+            <div class="led-title">
+                <h3 class="led-control">Personalized music and movie recommendation based on emotion</h3>
+            </div>
+            <div class="programming language">
+                <div>
+                    <div class="recomm">
+                        <ul>
+                            <li>This system recommends music and movies tailored to a user's current emotional state. By analyzing facial expressions captured via a webcam, the system uses OpenCV to detect emotions like happiness, sadness, anger, and surprise, and then suggests content that aligns with the detected mood.</li>
+                            <li>OpenCV processes real-time video to detect and classify emotions based on facial expressions. These emotions are then mapped to specific genres of music and movies, providing personalized recommendations that resonate with the user's emotional state.</li>
+                            <li><b>Tools and Frameworks Used</b> Python, OpenCV, Machine Learning Models, Recommendation Algorithms, GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/Ankitach780/Personalized-Movie-and-Music-Recommendations" class="styled-link" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="led-box">
+            <div class="led-title">
+                <h3 class="led-control">Indian Restaurant Price and Name Prediction</h3>
+            </div>
+            <div class="programming language">
+                <div>
+                    <div class="recomm">
+                        <ul>
+                            <li>This project predicts the price range and suggests potential names for Indian restaurants based on various features such as location, cuisine, restaurant type, and customer reviews. The model aims to assist entrepreneurs in making informed decisions when establishing a new restaurant.</li>
+                            <li>Machine learning models analyze historical data, including factors like the restaurant's location, cuisine type, and customer ratings, to accurately predict the expected price range for a new restaurant in different regions of India.</li>
+                            <li><b>Tools and Frameworks Used </b>Python, Pandas, Numpy,Machine Learning Models, Html, Css, Flask,</li>
+                        </ul>
+                    </div>
+                    <div class="project-link"><a href="https://github.com/Ankitach780/Indian-Restaurant-and-location-Prediction-" class="styled-link" target="_blank">GitHub</a></div>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Ankitach780" class="project-link">
+            <div class="led-box">
+                <div class="more-project-title">
+                    <h3>More Projects..</h3>
+                </div>
+            </div>
+        </a>
+    </section>
+    <section id="contact">
+        <p class="section-text">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <p class="content">Thank you for visiting my portfolio! You can connect me through the following platforms:</p>
+        <div class="platform">
+            <div class="connct">
+                <div>
+                    <img src="images/email.jpeg" alt="email logo">
+                    <a href="mailto:chaudharyankita667@gmail.com" class="hyy"><b>&ensp;Send an Email</b></a>
+                </div>
+                <div class="ml">
+                    <img src="images/github.jpeg" alt="github logo">
+                    <a href="https://github.com/Ankitach780" target="_blank" class="hyy"><b>&ensp; GitHub</b></a>
+                </div>
+            </div>
+            <div class="conn conn">
+                <div>
+                    <img src="images/linkedin.jpeg" alt="linkedin logo">
+                    <a href="https://www.linkedin.com/in/ankitachaudhary6526/" target="_blank" class="hyy"><b>&ensp;LinkedIn</b></a>
+                </div>
+                <div class="ml">
+                    <img src="images/kaggle.jpeg" alt="kaggle logo">
+                    <a href="https://www.kaggle.com/ankita20chaudhary" target="_blank" class="hyy"><b>&ensp;Kaggle</b></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <p>Copyright&copy; 2024 Ankita. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

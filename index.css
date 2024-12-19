@@ -16,14 +16,13 @@ html{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgb(231, 229, 233);
+    background-color: rgb(159, 114, 203);
     z-index: 100;
-    display: flex;
     align-items: center;
 }
 .logo{
-    font-size: 2rem;
-    margin-right: 55px;
+    font-size: 3rem;
+    margin-right: 50px;
 }
 .logo:hover{
     cursor: default;
@@ -33,11 +32,11 @@ html{
     justify-content: right;
     margin-right: 0px;
     margin-top: 18px;
-    margin-right: -20%;
+    margin-right: -15%;
     list-style-type: none;
 }
 .navbar ul li{
-    margin-right: 2em;
+    margin-right: 1em;
     font-size: 22px;
     font-weight: 600;
     transition: transform 0.01s ease;
@@ -61,31 +60,8 @@ nav{
     list-style: none;
     font-size: 1.5rem;
 }
-.hamburger-icon.open span:first-child {
-    transform: rotate(45deg) translate(10px, 5px);
-}
-
-.hamburger-icon.open span:nth-child(2) {
-    opacity: 0;
-}
-
-.hamburger-icon.open span:last-child {
-    transform: rotate(-45deg) translate(10px, -5px);
-}
-
-.hamburger-icon span:first-child {
-    transform: none;
-}
-
-.hamburger-icon span:first-child {
-    opacity: 1;
-}
-
-.hamburger-icon span:first-child {
-    transform: none;
-}
 #profile{
-    margin-bottom: 45px;
+    margin-top: 45px;
 }
 #profile .profile-pic img{
     border-radius: 50%;
@@ -96,21 +72,22 @@ nav{
 section {
     padding-top: 1px;
     height: 96vh;
+    width: auto;
     margin: 10rem;
     box-sizing: border-box;
     min-height: fit-content;
-    scroll-margin-top: 12vh;
+    scroll-margin-top: 10vh;
 }
 #profile{
     display: flex;
     justify-content: center;
-    gap: 7.5rem;
-    height: 80vh;
+    gap: 4rem;
+    height: 70vh;
 }
 .profile-pic{
     display: flex;
-    height: 550px;
-    margin-top: 10px;
+    height: 500px;
+    margin-top: 50px;
     margin-left: 10px;
 }
 .profile-text{
@@ -152,7 +129,7 @@ section {
     border-radius: 2rem;
 }
 .btn-color-1,.btn-color-2{
-    border:rgb(53,53,53) 0.1rem solid;
+    border:rgb(199, 100, 199) 0.1rem solid;
 }
 .btn-color-1:hover,
 .btn-color-2:hover{
@@ -171,12 +148,10 @@ section {
 
 /* About Page */
 #about{
-    margin-top: 100px;
-    margin-bottom: 47rem;
+    margin-top: 50px;
+    margin-bottom: 45px;
 }
-.section-text-p1{
-    text-align: center;
-}
+
 .text-box-1 h2{
     margin: 10px;
     padding: 3px;
@@ -198,7 +173,7 @@ section {
     margin: 10px 0;
 }
 .first-tool-box{
-    margin-left: 5px;
+    margin-left: 10px;
     width: 300px;
     padding: 20px;
     flex: 1;
@@ -210,7 +185,6 @@ section {
     width: 100%;
     font-size: 1.3rem;
     color: #111010;
-    margin-bottom: 15px;
     
 }
 .programmming-language{
@@ -309,15 +283,15 @@ section {
 }
 /* project */
 .section-text{
-    align-items: center;
+    margin-bottom: 20px;
 }
 .led-box{
-    margin-top: 15px;
-    margin-bottom: 25px;
-    height: 195px;
     padding: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: auto;
+    box-sizing: border-box;
 }
 .led-title{
     margin: 10px;
@@ -325,6 +299,8 @@ section {
 }
 .cont-head-project{
     display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .styled-link {
     color: #7c3995; 
@@ -356,29 +332,30 @@ section {
     background-color: rgba(127, 62, 164, 0.822); 
 }
 /* Contact page*/
+
 #contact{
-    margin-top: 250px;
-    text-align: center;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-.content {
     margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-bottom: 0;
+    padding: 10px 20px;
+    height: 50vh;
+}
+.title,
+.content {
+    margin: 10px auto;
+    max-width: 500px;
     text-align: center;
 }
 
 .connct img{
     width: 30px;
-    height: 29px;
-    margin: -5px;
+    height: 30px;
+    margin: 0;
     vertical-align: middle;
 }
 .conn img{
     width: 30px;
-    height: 29.2px;
-    margin: -5px;
+    height: 30px;
+    margin: 0;
     vertical-align: middle;
 }
 
@@ -402,13 +379,13 @@ section {
 .platform {
     display: flex;
     justify-content: center;
-    margin-top: 25px;
-    gap: 8em;
+    margin-top: 15px;
+    gap: 1.5em;
     flex-wrap: wrap;
 }
 
 .ml {
-    margin-top: 55px;
+    margin-top: 15px;
 }
 
 .hyy {
@@ -430,17 +407,14 @@ section {
     text-align: center;
     padding: 20px; 
     position: relative; 
-    bottom: 30px; 
+    bottom: 0px; 
     width: 100%;     
     font-size: 18px; 
     box-sizing: border-box;
-    margin-top: 0;
-    bottom: 0;
+    margin-top: auto;
 }
 .site-footer p {
-    max-width: 90%; 
-    margin-left: auto;
-    margin-right: auto; 
+    margin: 0;
 }
 .site-footer a {
     color: #fff; 

@@ -6,17 +6,6 @@
     <meta name="description" content="Ankita's Portfolio - Showcasing projects, skills, and contact information.">
     <link rel="stylesheet" href="index.css">
     <title>Ankita's Portfolio</title>
-    <style>
-        #unsupportedMessage {
-            display: none;
-            background-color: #f8d7da;
-            color: #721c24;
-            padding: 20px;
-            text-align: center;
-            font-size: 18px;
-            border-radius: 5px;
-        }
-    </style>
 </head>
 <body>
     <nav id="desktop-nav">
@@ -27,12 +16,10 @@
                 <li><a href='#about'>About</a></li>
                 <li><a href='#project'>Project</a></li>
                 <li><a href='#contact'>Contact</a></li>
+                <i class="fa-sharp fa-solid fa-xmark"></i>
             </ul>
         </div>
     </nav>
-    <div id="unsupportedMessage">
-        <p>Sorry, this portfolio is not supported on your device or browser. Please use a desktop system for the best experience.</p>
-    </div>
     <section id="profile">
         <div class="profile-pic section">
             <img src="images/image.jpg" alt="Ankita's profile pic">
@@ -333,16 +320,5 @@
         <p>Copyright&copy; 2024 Ankita. All Rights Reserved</p>
     </footer>
     <script src="script.js"></script>
-    <script>
-        // Detect if the user is on a mobile device
-        function isMobileDevice() {
-            return /android|iphone|ipod|ipad/i.test(navigator.userAgent);
-        }
-
-        // If the user is on a mobile device, display the unsupported message
-        if (isMobileDevice()) {
-            document.getElementById('unsupportedMessage').style.display = 'block';
-        }
-    </script>
 </body>
 </html>
